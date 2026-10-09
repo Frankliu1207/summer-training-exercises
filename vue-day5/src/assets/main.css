@@ -1,0 +1,25 @@
+@import './base.css';
+
+body {
+  min-width: 320px;
+  background: #f4f7fb;
+}
+
+#app {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 28px 72px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 640px) {
+  #app {
+    padding: 24px 16px 48px;
+  }
+}
